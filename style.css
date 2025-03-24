@@ -1,0 +1,68 @@
+header {
+    height: 125px;
+    padding: 5px;
+    border-width: 1PX;
+    text-align: center;
+    text-transform: uppercase;
+    background-size: 15%;
+    background-repeat: no-repeat;
+
+}
+
+h1 {
+    text-align: center;
+    color: aliceblue;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(30, 29, 29);
+    background-image: url('OIP.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.res {
+    width: 150px;
+    background-color: #6c8594;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.res:hover {
+    background-color: rgb(39, 116, 179);
+}
+
+.mod {
+
+    color: rgb(244, 241, 241);
+}
+
+input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: rgb(203, 203, 201);
+
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(télécharger.jpg);
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
