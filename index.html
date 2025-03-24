@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chiffrement et Décodage de César</title>
+</head>
+
+<body>
+    <header>
+        <h1>Chiffrement avec le Code de César</h1>
+    </header>
+    <form class="login-container">
+        <h1><marquee behavior="" direction="">Codage || Décodage</marquee></h1>
+
+        <div>
+            <label for="txt" class="mod">Entrer votre message :</label>
+            <input type="text" id="txt" name="txt" required>
+        </div>
+        <br>
+
+        <div>
+            <label for="dec" class="mod">Entrer le décalage :</label>
+            <input type="number" id="dec" name="dec" min="1" max="25" required>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Chiffrer" class="res">
+            <input type="submit" value="Déchiffrer" class="res">
+        </div>
+        <br>
+
+        <div>
+            <label for="msg" class="mod">Résultat :</label>
+            <input type="text" id="msg" name="msg" readonly>
+        </div>
+    </form>
+
+    <script src="style.js"></script>
+</body>
+
+</html>
